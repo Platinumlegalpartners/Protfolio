@@ -1100,3 +1100,35 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 .copy { font-size: 14px; font-size: 0.875em; color: #494949; }
 
 /*# sourceMappingURL=style.css.map */
+
+.employee-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.employee-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.employee-card img {
+  width: 100%;
+  height: auto;
+}
+.employee-card .details {
+  padding: 15px;
+}
+.employee-card .details h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+.employee-card .details p {
+  margin: 5px 0 0;
+  color: #777;
+}
